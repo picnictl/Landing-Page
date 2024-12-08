@@ -32,21 +32,21 @@ ul {
     list-style: none;
 }
 
+/* make image wrapped if possible */
+
  .section1 {
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: center;
 }
 
 .section1-img {
     display: flex;
     align-items: center;
     flex-basis: 0;
-    flex-wrap: wrap;
 }
 
 #image1 {
-    width: 450px;
+    width: 500px;
     height: auto;
     border: 10px solid #FFD23F;
     border-radius: 5px;
@@ -57,7 +57,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-basis: 400px;
-    padding: 50px;
+    padding: 100px;
 }
 
 button {
@@ -68,4 +68,42 @@ button {
     border: none;
     border-radius: 3px;
     font-weight: bold;
+}
+
+.section2 {
+    background-color: #00a5e3;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ranking {
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EE4266;
+    color: white;
+    height: 80px;
+}
+
+.section2 img {
+    width: 150px;
+    height: 100px;
+    border: 5px solid #FFD23F;
+    border-radius: 3px;
+}
+
+.ranking-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    font-weight: bold;
+    font-size: large;
 }
