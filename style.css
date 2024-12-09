@@ -143,7 +143,7 @@ ul {
 .section3 {
     background-color: #00a5e3;
     color: white;
-    height: 100px;  
+    height: 130px;  
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -172,4 +172,13 @@ ul {
 .question {
     font-size: larger;
     font-weight: bolder;
+}
+
+.footer {
+    height: 50px;
+    background-color: #EE4266;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
