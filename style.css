@@ -107,3 +107,35 @@ button {
     font-weight: bold;
     font-size: large;
 }
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    background-color: #EE4266;
+    margin: 100px;
+    padding: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    color: white;
+    font-size: x-large;
+    width: 100%;
+}
+
+.quote-credit {
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
