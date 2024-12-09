@@ -60,7 +60,7 @@ ul {
     padding: 100px;
 }
 
-button {
+.pancake {
     max-width: 150px;
     background-color: #00a5e3;
     color: white;
@@ -137,5 +137,39 @@ button {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    
+}
+
+
+.section3 {
+    background-color: #00a5e3;
+    color: white;
+    height: 100px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section3-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.signup {
+    background-color: #FFD23F;
+    color: white;
+    font-weight: bolders;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+}
+
+.question {
+    font-size: larger;
+    font-weight: bolder;
 }
